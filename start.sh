@@ -22,4 +22,4 @@ set_val $ICECAST_HOSTNAME        hostname
 set -e
 
 # sudo -Eu icecast2 icecast2 -n -c /etc/icecast2/icecast.xml
-sudo -Eu /etc/init.d/icecast2 start && tail -F /var/log/icecast2/error.log
+/etc/init.d/icecast2 start && tail -F /var/log/icecast2/error.log
